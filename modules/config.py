@@ -178,7 +178,7 @@ default_loras = get_config_item_or_set_default(
             0.0
         ],
         [
-            "nsfw_pov",
+            "nsfw_pov.safetensors",
             0.7
         ],
         [
