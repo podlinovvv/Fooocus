@@ -8,12 +8,12 @@
             0.1
         ],
         [
-            "NSFW POV All In One SDXL",
-            0.0
+            "nsfw_xl.safetensors",
+            0.1
         ],
         [
-            "NSFW XL",
-            0.0
+            "None",
+            1.0
         ],
         [
             "None",
@@ -44,7 +44,6 @@
     "embeddings_downloads": {},
     "lora_downloads": {
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
-        "NSFW POV All In One SDXL": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
-        "NSFW XL":"https://civitai.com/api/download/models/184034?type=Model&format=SafeTensor"
+        "nsfw_xl.safetensors":"https://huggingface.co/Dremmar/nsfw-xl/resolve/main/nsfw-xl-2.0.safetensors?download=true"
     }
 }
