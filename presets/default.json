@@ -1,5 +1,5 @@
 {
-    "default_model": "juggernautXL_version6Rundiffusion.safetensors",
+    "default_model": "juggernautXL_version8Rundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -8,12 +8,12 @@
             0.1
         ],
         [
-            "None",
-            1.0
+            "NSFW POV All In One SDXL",
+            0.0
         ],
         [
-            "None",
-            1.0
+            "NSFW XL",
+            0.0
         ],
         [
             "None",
