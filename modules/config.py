@@ -256,14 +256,17 @@ default_image_number = get_config_item_or_set_default(
 checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
-        "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors"
+        "juggernautXL_version6Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_version6Rundiffusion.safetensors",
+"juggernautXL_version8Rundiffusion.safetensors": "https://civitai.com/api/download/models/288982?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
 lora_downloads = get_config_item_or_set_default(
     key='lora_downloads',
     default_value={
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
+        "NSFW POV All In One SDXL": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
+        "NSFW XL": "https://civitai.com/api/download/models/184034?type=Model&format=SafeTensor"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
