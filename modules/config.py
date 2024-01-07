@@ -265,7 +265,7 @@ lora_downloads = get_config_item_or_set_default(
     key='lora_downloads',
     default_value={
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors",
-        "NSFW POV All In One SDXL": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
+        #"NSFW POV All In One SDXL": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor",
         "NSFW XL": "https://civitai.com/api/download/models/184034?type=Model&format=SafeTensor"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
