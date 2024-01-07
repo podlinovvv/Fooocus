@@ -175,11 +175,11 @@ default_loras = get_config_item_or_set_default(
         ],
         [
             "nsfw_xl.safetensors",
-            0.0
+            0.5
         ],
         [
             "nsfw_pov.safetensors",
-            0.7
+            0.0
         ],
         [
             "None",

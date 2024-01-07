@@ -8,12 +8,12 @@
             0.25
         ],
         [
-            "None",
-            1.0
+           "nsfw_xl.safetensors",
+            0.5
         ],
         [
-            "None",
-            1.0
+            "nsfw_pov.safetensors",
+            0.0
         ],
         [
             "None",
@@ -42,6 +42,8 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
+        "nsfw_xl.safetensors":"https://huggingface.co/Dremmar/nsfw-xl/resolve/main/nsfw-xl-2.0.safetensors?download=true",
+        "nsfw_pov.safetensors": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor"
     }
 }

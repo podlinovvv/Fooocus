@@ -9,11 +9,11 @@
         ],
         [
             "nsfw_xl.safetensors",
-            0.0
+            0.5
         ],
         [
             "nsfw_pov.safetensors",
-            0.9
+            0.0
         ],
         [
             "None",
