@@ -174,12 +174,12 @@ default_loras = get_config_item_or_set_default(
             0.1
         ],
         [
-            "None",
-            1.0
+            "NSFW POV All In One SDXL",
+            0.1
         ],
         [
-            "None",
-            1.0
+            "NSFW XL",
+            0.1
         ],
         [
             "None",
