@@ -1,108 +1,133 @@
 [
     {
-        "name": "DR test portrait",
-        "prompt": " {prompt} . portrait",
-        "negative_prompt": ""
-    },
-     {
-        "name": "DR test Colors",
-        "prompt": " {prompt} . saturated, bright lights, high contrast, vivid",
+        "name": "DR vivid Colors",
+        "prompt": " {prompt} , saturated, bright lights, high contrast, vivid",
         "negative_prompt": ""
     },
     {
         "name": "DR Realistic",
-        "prompt": " {prompt} .  realistic, photographic, photorealistic, superrealistic, hyperrealistic",
+        "prompt": " {prompt} ,  realistic, photographic, photorealistic",
         "negative_prompt": ""
     },
     {
-        "name": "DR  testNEG",
-        "prompt": "  {prompt}  ",
+        "name": "DR hyperrealistic",
+        "prompt": " {prompt} ,  realistic, photographic, photorealistic, superrealistic, hyperrealistic",
+        "negative_prompt": ""
+    },
+    {
+        "name": "DR  negative body",
+        "prompt": "  {prompt}  ,",
         "negative_prompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, disconnected head, malformed hands, long neck, mutated hands and fingers, bad hands, missing fingers, cropped, worst quality, low quality, mutation, poorly drawn, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, missing fingers, fused fingers, abnormal eye proportion, Abnormal hands, abnormal legs, abnormal feet, abnormal fingers, ugly, deformed, distorted , cross-eyed, closed eyes, bad eyes"
     },
     {
-        "name": "DR  testPOSE1",
-        "prompt": "  {prompt}  . close-up, 1 girl, solo,  looking at viewer, (((leans heavily to the front)))",
+        "name": "DR leans",
+        "prompt": "  {prompt}  , (((body lean forward)), (((body bend forward)), holds breasts, shows breasts",
         "negative_prompt": ""
     },
     {
-        "name": "DR  testPOSE2",
-        "prompt": "  {prompt}  .  fullbody shot, 1 girl, solo,  looking at viewer, (((leans heavily to the front)))",
+        "name": "DR  Model1",
+        "prompt": "  {prompt}  , long hair, large breasts, cleavage, bare shoulders, detached sleeves, (thighhighs), ((makeup)), garter straps, wide hips, (curvy) hips, (thick) thighs, black lingerie , lace trim, corset",
         "negative_prompt": ""
     },
     {
-        "name": "DR  testModel",
-        "prompt": "  {prompt}  . long hair, large breasts, cleavage, bare shoulders, detached sleeves, (thighhighs), ((makeup)), garter straps, wide hips, (curvy) hips, (thick) thighs, black lingerie , lace trim, corset",
+        "name": "DR  sexy",
+        "prompt": "  {prompt}  , (((NSFW))), perfect body shape, disheveled hair,  detailed eyes, wet skin, moist skin, glossy skin, vulgar, obscene, indecent, flirtatious, playful, salacious, indecorous,  candid, horny, seductive, tempting, alluring, attractive, sexy, lust, (((nude)))",
         "negative_prompt": ""
     },
     {
-        "name": "DR  testSexy",
-        "prompt": "  {prompt}  . disheveled hair,  detailed eyes,  wet skin, moist skin, glossy skin,  vulgar, obscene, indecent, salacious, indecorous,  candid, horny, seductive, tempting, alluring, attractive, sexy",
+        "name": "DR  mysterious mansion background",
+        "prompt": "  {prompt}  , rich old mansion background, dark atmosphere, moody atmosphere, gloomy atmosphere, (((mysterious atmosphere))), (((night))), full moon",
         "negative_prompt": ""
     },
     {
-        "name": "DR  testMain",
-        "prompt": "  {prompt}  . illustration, digital artwork, matte painting, ethereal, fantasy, magnificent, celestial, (epic), majestic, magical,  cover art, dreamy, rich old mansion background, dark atmosphere, moody atmosphere, gloomy atmosphere, (((mysterious atmosphere))), night, (masterpiece), (best quality), breathtaking, generous, rich, pretty, fashionable,  proportional, emotional, high budget,  amazing, elegant, epic,  gorgeous, dramatic, (ultra-detailed), perfect composition, intricate details,  highly detailed",
+        "name": "DR digital art",
+        "prompt": " {prompt} , illustration, digital artwork, matte painting, cover art, (best quality), breathtaking, generous, rich, pretty, fashionable,  proportional, emotional, high budget, amazing, elegant, gorgeous, dramatic, (ultra-detailed), perfect composition, intricate details,  highly detailed",
+        "negative_prompt": ""
+    },
+    {
+        "name": "DR magnificent",
+        "prompt": " {prompt} , volumetric, by wlop, ethereal, fantasy, magnificent, celestial, (epic), majestic, magical, dreamy, (masterpiece)",
+        "negative_prompt": ""
+    },
+    {
+        "name": "DR  pool party background",
+        "prompt": " {prompt} , tan lines, pool, realistic  water, water splashes, reflections, waves, floaties,  air mattress, by the pool, deckchair, beach, sunscreen, cocktails, beautiful water, bright sun, loud party, pool party background, palm trees, [group of people in background], microphone, confetti, beachball,  water gun, crab, food, open clothes, shorts, clothing cutout, bracelet, sun hat, sandals, jewelry, hoop earrings",
+        "negative_prompt": "oversaturated, super high contrast"
+    },
+    {
+        "name": "DR  model2 for poolparty",
+        "prompt": " {prompt} , carefree, funny, playful, cheerful, smiling, shining, (((sexy swimsuit))), sunglasses, wet hair, wet clothes, bikini, one-piece swimsuit, hat, goggles",
+        "negative_prompt": ""
+    },
+    {
+        "name": "DR  Curvy",
+        "prompt": " {prompt} , luxurious body, curvy hips, wide thighs, thick thighs, large breasts, round ass",
         "negative_prompt": ""
     },
     {
         "name": "DR  model1",
-        "prompt": "  {prompt} . long hair, breasts, large breasts, thighhighs, cleavage, bare shoulders,  jewelry, underwear, standing, panties, thighs,  earrings, detached sleeves, black thighhighs, nail polish,  grey eyes, black panties,  makeup, garter straps, thick thighs, ring, lingerie, black nails, lace trim, corset, curvy, wide hips, red lips,  lace-trimmed legwear, bustier, black corset, thick lips, black garter strap",
+        "prompt": "  {prompt} , long hair, breasts, large breasts, thighhighs, cleavage, bare shoulders,  jewelry, underwear, standing, panties, thighs,  earrings, detached sleeves, black thighhighs, nail polish,  grey eyes, black panties,  makeup, garter straps, thick thighs, ring, lingerie, black nails, lace trim, corset, curvy, wide hips, red lips,  lace-trimmed legwear, bustier, black corset, thick lips, black garter strap",
         "negative_prompt": ""
     },
     {
         "name": "DR NON-Photorealistic",
-        "prompt": "  {prompt}.   ",
+        "prompt": "  {prompt},   ",
         "negative_prompt": "realistic, photographic, photorealistic"
     },
     {
         "name": "DR wlop",
-        "prompt": " {prompt} . by wlop",
+        "prompt": " {prompt} , by wlop",
         "negative_prompt": ""
     },
     {
-        "name": "DR test octane render",
-        "prompt": " {prompt} . octane render",
+        "name": "DR octane render",
+        "prompt": " {prompt} , octane render",
         "negative_prompt": ""
     },
     {
-        "name": "DR test volumetric",
-        "prompt": " {prompt} . volumetric",
+        "name": "DR volumetric",
+        "prompt": " {prompt} , volumetric",
         "negative_prompt": ""
     },
     {
-        "name": "DR test Blur",
-        "prompt": " {prompt} . blurry",
+        "name": "DR blur",
+        "prompt": " {prompt} , blurry",
         "negative_prompt": "crisp, sharp"
     },
     {
-        "name": "DR test Sharp",
-        "prompt": " {prompt} . crisp, sharp",
+        "name": "DR sharp",
+        "prompt": " {prompt} , crisp, sharp",
         "negative_prompt": "blurry"
     },
     {
-        "name": "DR test Light",
-        "prompt": " {prompt} . dramatic lighting, ambient light, volumetic light",
+        "name": "DR ambient light",
+        "prompt": " {prompt} , dramatic lighting, ambient light, volumetic light",
         "negative_prompt": ""
     },
     {
-        "name": "DR test Low Contrast",
-        "prompt": " {prompt} . low contrast, muted colors",
+        "name": "DR low contrast",
+        "prompt": " {prompt} , low contrast, muted colors",
         "negative_prompt": " high contrast"
     },
     {
-        "name": "DR test igh Contrast",
-        "prompt": " {prompt} . High Contrast, vivid colors",
+        "name": "DR high contrast",
+        "prompt": " {prompt} , High Contrast, vivid colors",
         "negative_prompt": " low contrast"
     },
     {
-        "name": "DR test Shot",
-        "prompt": " {prompt} . 8k, bokeh, shallow depth of field, vignette",
+        "name": "DR cinema shot",
+        "prompt": " {prompt}, 8k, bokeh, shallow depth of field, vignette",
         "negative_prompt": " "
     },
     {
-        "name": "DR te stGrain",
-        "prompt": " {prompt} . film grain, grainy",
+        "name": "DR grain",
+        "prompt": " {prompt} , film grain, grainy",
         "negative_prompt": " "
+    },
+    {
+        "name": "DR sunset",
+        "prompt": " {prompt} , sunset, vivid colors, long deep shadows, dramatic lighting, warm light, sunset light",
+        "negative_prompt": ""
     },
     {
         "name": "sai-3d-model",

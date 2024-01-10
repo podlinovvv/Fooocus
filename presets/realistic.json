@@ -5,7 +5,7 @@
     "default_loras": [
         [
             "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
-            0.25
+            0.3
         ],
         [
            "None",
@@ -24,13 +24,13 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 3.0,
+    "default_cfg_scale": 4.5,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "oversaturated, big nose, watermark, signature, label",
+    "default_prompt_negative": "big nose, asian, old, gray empty background",
     "default_styles": [
         "Fooocus V2"
     ],
