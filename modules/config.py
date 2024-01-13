@@ -250,7 +250,7 @@ default_max_image_number = get_config_item_or_set_default(
 )
 default_image_number = get_config_item_or_set_default(
     key='default_image_number',
-    default_value=2,
+    default_value=1,
     validator=lambda x: isinstance(x, int) and 1 <= x <= default_max_image_number
 )
 checkpoint_downloads = get_config_item_or_set_default(
@@ -277,6 +277,7 @@ embeddings_downloads = get_config_item_or_set_default(
 available_aspect_ratios = get_config_item_or_set_default(
     key='available_aspect_ratios',
     default_value=[
+        '2048*2048',
         '704*1408', '704*1344', '768*1344', '768*1280', '832*1216', '832*1152',
         '896*1152', '896*1088', '960*1088', '960*1024', '1024*1024', '1024*960',
         '1088*960', '1088*896', '1152*896', '1152*832', '1216*832', '1280*768',

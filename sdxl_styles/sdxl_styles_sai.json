@@ -21,32 +21,27 @@
     },
     {
         "name": "DR leans",
-        "prompt": "  {prompt}  , (((body lean forward)), (((body bend forward)), holds breasts, shows breasts",
+        "prompt": "  {prompt}  , (((body lean forward))), (((body bend forward))), holds breasts, shows breasts",
         "negative_prompt": ""
     },
     {
         "name": "DR  Model1",
-        "prompt": "  {prompt}  , long hair, large breasts, cleavage, bare shoulders, detached sleeves, (thighhighs), ((makeup)), garter straps, wide hips, (curvy) hips, (thick) thighs, black lingerie , lace trim, corset",
-        "negative_prompt": ""
-    },
-    {
-        "name": "DR  sexy",
-        "prompt": "  {prompt}  , (((NSFW))), perfect body shape, disheveled hair,  detailed eyes, wet skin, moist skin, glossy skin, vulgar, obscene, indecent, flirtatious, playful, salacious, indecorous,  candid, horny, seductive, tempting, alluring, attractive, sexy, lust, (((nude)))",
+        "prompt": "  {prompt}  , long hair, very large breasts, cleavage, bare shoulders, detached sleeves, (thighhighs), ((makeup)), garter straps, wide (curvy) hips, (thick) thighs, black lingerie , lace trim, corset",
         "negative_prompt": ""
     },
     {
         "name": "DR  mysterious mansion background",
-        "prompt": "  {prompt}  , rich old mansion background, dark atmosphere, moody atmosphere, gloomy atmosphere, (((mysterious atmosphere))), (((night))), full moon",
+        "prompt": "  {prompt}  , (((NIGHT))), rich old mansion background, dark atmosphere, moody atmosphere, gloomy atmosphere, (((mysterious atmosphere))), (((night))), full moon",
         "negative_prompt": ""
     },
     {
         "name": "DR digital art",
-        "prompt": " {prompt} , illustration, digital artwork, matte painting, cover art, (best quality), breathtaking, generous, rich, pretty, fashionable,  proportional, emotional, high budget, amazing, elegant, gorgeous, dramatic, (ultra-detailed), perfect composition, intricate details,  highly detailed",
+        "prompt": " {prompt} , illustration, digital artwork, matte painting, cover art",
         "negative_prompt": ""
     },
     {
         "name": "DR magnificent",
-        "prompt": " {prompt} , volumetric, by wlop, ethereal, fantasy, magnificent, celestial, (epic), majestic, magical, dreamy, (masterpiece)",
+        "prompt": " {prompt} , ethereal, fantasy, magnificent, celestial, epic, majestic, magical, dreamy, masterpiece, volumetric, by wlop",
         "negative_prompt": ""
     },
     {
@@ -60,8 +55,8 @@
         "negative_prompt": ""
     },
     {
-        "name": "DR  Curvy",
-        "prompt": " {prompt} , luxurious body, curvy hips, wide thighs, thick thighs, large breasts, round ass",
+        "name": "DR  Horny",
+        "prompt": " {prompt} , (((NSFW))), luxurious body, curvy hips, wide thighs, thick thighs, large breasts, round ass, curvy body shape, disheveled hair, wet moist glossy skin, vulgar, obscene, indecent, playful, candid, horny, seductive, tempting, alluring, attractive, sexy, lust",
         "negative_prompt": ""
     },
     {
