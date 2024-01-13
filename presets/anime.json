@@ -38,7 +38,6 @@
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
         "bluePencilXL_v300.safetensors": "https://huggingface.co/Dremmar/blue_pencil-XL_v300/resolve/main/bluePencilXL_v300.safetensors?download=true",
-        "serenexl_v15.safetensors": "https://civitai.com/api/download/models/236524?type=Model&format=SafeTensor&size=full&fp=fp16",
         "hassakuXLSfwNsfwBeta_betaV02M.safetensors": "https://civitai.com/api/download/models/296830",
         "DreamShaper_8_pruned.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/DreamShaper_8_pruned.safetensors"
     },
