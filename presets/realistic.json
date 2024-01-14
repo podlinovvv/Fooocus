@@ -1,5 +1,5 @@
 {
-    "default_model": "animagineXLV3_v30.safetensors",
+    "default_model": "serenexl_v15.safetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -37,7 +37,6 @@
     "checkpoint_downloads": {
         "realisticStockPhoto_v10.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v10.safetensors",
         "serenexl_v15.safetensors": "https://civitai.com/api/download/models/236524?type=Model&format=SafeTensor&size=full&fp=fp16",
-        "animagineXLV3_v30.safetensors": "https://huggingface.co/Dremmar/Animagine_XL_V3/resolve/main/animagineXLV3_v30.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
