@@ -1,11 +1,11 @@
 {
-    "default_model": "realisticStockPhoto_v10.safetensors",
+    "default_model": "animagine.sagetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
-            0.3
+            "None",
+            1.0
         ],
         [
            "None",
@@ -32,16 +32,15 @@
     "default_prompt": "",
     "default_prompt_negative": "big nose, asian, old, empty background, sfw",
     "default_styles": [
-        "Fooocus V2"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "realisticStockPhoto_v10.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v10.safetensors"
+        "realisticStockPhoto_v10.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v10.safetensors",
+        "serenexl_v15.safetensors": "https://civitai.com/api/download/models/236524?type=Model&format=SafeTensor&size=full&fp=fp16",
+        "animagine.sagetensors": "https://civitai.com/api/download/models/293564"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
-        "nsfw_xl.safetensors":"https://huggingface.co/Dremmar/nsfw-xl/resolve/main/nsfw-xl-2.0.safetensors?download=true",
-        "nsfw_pov.safetensors": "https://civitai.com/api/download/models/160240?type=Model&format=SafeTensor"
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
     }
 }
