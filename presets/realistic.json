@@ -1,7 +1,7 @@
 {
     "default_model": "animagineXLV3_v30.safetensors",
-    "default_refiner": "serenexl_v15.safetensors",
-    "default_refiner_switch": 0.667,
+    "default_refiner": "",
+    "default_refiner_switch": 1.0,
     "default_loras": [
         [
             "None",
@@ -30,13 +30,12 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "big nose, asian, old, empty background, sfw",
+    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), big nose, asian, old, empty background, sfw",
     "default_styles": [
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
         "realisticStockPhoto_v10.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v10.safetensors",
-        "serenexl_v15.safetensors": "https://civitai.com/api/download/models/236524?type=Model&format=SafeTensor&size=full&fp=fp16",
         "animagineXLV3_v30.safetensors": "https://huggingface.co/Dremmar/Animagine_XL_V3/resolve/main/animagineXLV3_v30.safetensors?download=true"
     },
     "embeddings_downloads": {},
