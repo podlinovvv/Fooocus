@@ -172,10 +172,10 @@ def worker():
         steps = 30
 
         if performance_selection == 'Speed':
-            steps = 36
+            steps = 40
 
         if performance_selection == 'Quality':
-            steps = 80
+            steps = 120
 
         if performance_selection == 'Extreme Speed':
             print('Enter LCM mode.')
