@@ -35,7 +35,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "realisticStockPhoto_v20.safetensors": "https://civitai.com/api/download/models/294470"
+        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/Dremmar/realisticStockPhoto_v20/resolve/main/realisticStockPhoto_v20.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {

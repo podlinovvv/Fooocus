@@ -257,7 +257,7 @@ checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
 #"juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/Dremmar/juggernaut_v8/resolve/main/juggernautXL_v8Rundiffusion.safetensors?download=true",
-"realisticStockPhoto_v20.safetensors": "https://civitai.com/api/download/models/294470"
+"realisticStockPhoto_v20.safetensors": "https://huggingface.co/Dremmar/realisticStockPhoto_v20/resolve/main/realisticStockPhoto_v20.safetensors?download=true"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
