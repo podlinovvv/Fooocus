@@ -1,5 +1,5 @@
 {
-    "default_model": "realisticStockPhoto_v20.safetensors",
+    "default_model": "juggernautXL_version8Rundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -32,11 +32,10 @@
     "default_prompt": "",
     "default_prompt_negative": "",
     "default_styles": [
-
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "realisticStockPhoto_v20.safetensors": "https://civitai.com/api/download/models/294470"
+        "juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/Dremmar/juggernaut_v8/resolve/main/juggernautXL_v8Rundiffusion.safetensors?download=true",
     },
     "embeddings_downloads": {},
     "lora_downloads": {
