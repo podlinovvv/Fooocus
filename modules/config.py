@@ -55,7 +55,7 @@ def try_load_deprecated_user_path_config():
         replace_config('fooocus_expansion_path', 'path_fooocus_expansion')
         replace_config('temp_outputs_path', 'path_outputs')
 
-        if deprecated_config_dict.get("default_model", None) == 'juggernautXL_version8Rundiffusion.safetensors':
+        if deprecated_config_dict.get("default_model", None) == 'realisticStockPhoto_v20.safetensors':
             os.replace('user_path_config.txt', 'user_path_config-deprecated.txt')
             print('Config updated successfully in silence. '
                   'A backup of previous config is written to "user_path_config-deprecated.txt".')
@@ -256,7 +256,8 @@ default_image_number = get_config_item_or_set_default(
 checkpoint_downloads = get_config_item_or_set_default(
     key='checkpoint_downloads',
     default_value={
-"juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/Dremmar/juggernaut_v8/resolve/main/juggernautXL_v8Rundiffusion.safetensors?download=true"
+#"juggernautXL_version8Rundiffusion.safetensors": "https://huggingface.co/Dremmar/juggernaut_v8/resolve/main/juggernautXL_v8Rundiffusion.safetensors?download=true",
+"realisticStockPhoto_v20.safetensors": "https://civitai.com/api/download/models/294470"
     },
     validator=lambda x: isinstance(x, dict) and all(isinstance(k, str) and isinstance(v, str) for k, v in x.items())
 )
