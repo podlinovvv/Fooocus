@@ -41,7 +41,7 @@
     },
     {
         "name": "DR magnificent",
-        "prompt": " {prompt} , ethereal, fantasy, magnificent, celestial, epic, majestic, magical, dreamy, masterpiece, volumetric, by wlop",
+        "prompt": " {prompt} , ethereal, fantasy, magnificent, celestial, epic, majestic, magical, dreamy, masterpiece",
         "negative_prompt": ""
     },
     {
