@@ -1,11 +1,11 @@
 {
-    "default_model": "hassakuXLSfwNsfwBeta_betaV02M.safetensors",
-    "default_refiner": "DreamShaper_8_pruned.safetensors",
-    "default_refiner_switch": 0.667,
+    "default_model": "serenexl_v15.safetensors",
+    "default_refiner": "",
+    "default_refiner_switch": 1.0,
     "default_loras": [
         [
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.5
+            "None",
+            1.0
         ],
         [
             "None",
@@ -24,13 +24,13 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 7.0,
+    "default_cfg_scale": 9.0,
     "default_sample_sharpness": 2.0,
-    "default_sampler": "dpmpp_2m_sde_gpu",
-    "default_scheduler": "karras",
+    "default_sampler": "euler_ancestral",
+    "default_scheduler": "normal",
     "default_performance": "Speed",
-    "default_prompt": "1girl, ",
-    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark",
+    "default_prompt": "",
+    "default_prompt_negative": "low quality, watermark, label, big nose, asian, old",
     "default_styles": [
         "Fooocus V2",
         "SAI Anime"
@@ -38,14 +38,8 @@
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
         "bluePencilXL_v300.safetensors": "https://huggingface.co/Dremmar/blue_pencil-XL_v300/resolve/main/bluePencilXL_v300.safetensors?download=true",
-        "hassakuXLSfwNsfwBeta_betaV02M.safetensors": "https://civitai.com/api/download/models/296830",
-        "DreamShaper_8_pruned.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/DreamShaper_8_pruned.safetensors"
+        "serenexl_v15.safetensors": "https://huggingface.co/Dremmar/serenexl_v15/resolve/main/serenexl_v15.safetensors?download=true"
     },
-    "embeddings_downloads": {
-        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors"
-    },
-    "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
-
-    }
+    "embeddings_downloads": {},
+    "lora_downloads": {}
 }

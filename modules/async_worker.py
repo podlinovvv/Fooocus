@@ -172,10 +172,10 @@ def worker():
         steps = 30
 
         if performance_selection == 'Speed':
-            steps = 40
+            steps = 30
 
         if performance_selection == 'Quality':
-            steps = 80
+            steps = 60
 
         if performance_selection == 'Extreme Speed':
             print('Enter LCM mode.')
@@ -443,9 +443,9 @@ def worker():
 
         if 'vary' in goals:
             if 'subtle' in uov_method:
-                denoising_strength = 0.5
+                denoising_strength = 0.05
             if 'strong' in uov_method:
-                denoising_strength = 0.85
+                denoising_strength = 0.1
             if advanced_parameters.overwrite_vary_strength > 0:
                 denoising_strength = advanced_parameters.overwrite_vary_strength
 
