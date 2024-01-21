@@ -29,7 +29,7 @@
     "default_sampler": "euler_ancestral",
     "default_scheduler": "normal",
     "default_performance": "Speed",
-    "default_prompt": "",
+    "default_prompt": "masterpiece, best quality, absurdres, ",
     "default_prompt_negative": "low quality, watermark, label, big nose, asian, old",
     "default_styles": [
         "Fooocus V2",
