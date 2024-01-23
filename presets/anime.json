@@ -39,7 +39,6 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "bluePencilXL_v300.safetensors": "https://huggingface.co/Dremmar/blue_pencil-XL_v300/resolve/main/bluePencilXL_v300.safetensors?download=true",
         "serenexl_v15.safetensors": "https://huggingface.co/Dremmar/serenexl_v15/resolve/main/serenexl_v15.safetensors?download=true"
     },
     "embeddings_downloads": {},
