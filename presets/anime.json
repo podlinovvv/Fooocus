@@ -29,11 +29,13 @@
     "default_sampler": "euler_ancestral",
     "default_scheduler": "normal",
     "default_performance": "Speed",
-    "default_prompt": "masterpiece, best quality, absurdres, ",
+    "default_prompt": "volumetric side light, masterpice, best quality, absurdres, foggy light,",
     "default_prompt_negative": "low quality, watermark, label, big nose, asian, old",
     "default_styles": [
         "Fooocus V2",
-        "SAI Anime"
+        "SAI Anime",
+        "DR  superstyle1",
+        "DR  Horny"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {

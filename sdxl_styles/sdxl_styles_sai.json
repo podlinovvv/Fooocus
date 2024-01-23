@@ -46,12 +46,17 @@
     },
     {
         "name": "DR  pool party background",
-        "prompt": " {prompt} , tan lines, pool, realistic  water, water splashes, reflections, waves, floaties,  air mattress, by the pool, deckchair, beach, sunscreen, cocktails, beautiful water, bright sun, loud party, pool party background, palm trees, [group of people in background], microphone, confetti, beachball,  water gun, crab, food, open clothes, shorts, clothing cutout, bracelet, sun hat, sandals, jewelry, hoop earrings",
+        "prompt": " {prompt} , tan lines, pool, realistic  water, water splashes, reflections, waves, floaties,  air mattress, by the pool, deckchair, beach, sunscreen, cocktails, beautiful water, bright sun, pool party background, palm trees,  beachball,  water gun, food, open clothes, shorts, clothing cutout, bracelet, sun hat, sandals, jewelr",
         "negative_prompt": "oversaturated, super high contrast"
     },
     {
         "name": "DR  model2 for poolparty",
         "prompt": " {prompt} , carefree, funny, playful, cheerful, smiling, shining, (((sexy swimsuit))), sunglasses, wet hair, wet clothes, bikini, one-piece swimsuit, hat, goggles",
+        "negative_prompt": ""
+    },
+    {
+        "name": "DR  superstyle1",
+        "prompt": "anime artwork {prompt} , anime style, key visual, vibrant, studio anime, concept art,  illustrative, matte painting, highly detailed, breathtaking, award-winning, professional, fantasy concept art, magnificent, celestial, ethereal, epic, majestic, magical, fantasy art, cover art, dreamy, digital artwork, painterly",
         "negative_prompt": ""
     },
     {

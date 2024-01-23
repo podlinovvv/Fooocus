@@ -497,7 +497,7 @@ with shared.gradio_root:
                 return [
                     gr.update(visible=True), gr.update(visible=False, value=[]),
                     gr.Dataset.update(visible=True, samples=modules.config.example_inpaint_prompts),
-                    False, 'None', 0.5, 0.0
+                    False, 'None', 0.2, 0.0
                 ]
 
             if mode == modules.flags.inpaint_option_modify:
@@ -506,7 +506,12 @@ with shared.gradio_root:
                     gr.Dataset.update(visible=False, samples=modules.config.example_inpaint_prompts),
                     True, modules.config.default_inpaint_engine_version, 1.0, 0.0
                 ]
-
+            # if mode == modules.flags.inpaint_option_modify:
+            #     return [
+            #         gr.update(visible=True), gr.update(visible=False, value=[]),
+            #         gr.Dataset.update(visible=True, samples=modules.config.example_inpaint_prompts),
+            #         False, 'None', 0.2, 0.0
+            #     ]
             return [
                 gr.update(visible=False, value=''), gr.update(visible=True),
                 gr.Dataset.update(visible=False, samples=modules.config.example_inpaint_prompts),
