@@ -20,11 +20,6 @@
         "negative_prompt": "deformed, bad anatomy, disfigured, poorly drawn face, mutated, extra limb, ugly, poorly drawn hands, missing limb, floating limbs, disconnected limbs, disconnected head, malformed hands, long neck, mutated hands and fingers, bad hands, missing fingers, cropped, worst quality, low quality, mutation, poorly drawn, huge calf, bad hands, fused hand, missing hand, disappearing arms, disappearing thigh, disappearing calf, disappearing legs, missing fingers, fused fingers, abnormal eye proportion, Abnormal hands, abnormal legs, abnormal feet, abnormal fingers, ugly, deformed, distorted , cross-eyed, closed eyes, bad eyes"
     },
     {
-        "name": "DR leans",
-        "prompt": "  {prompt}  , (((body lean forward))), (((body bend forward))), holds breasts, shows breasts",
-        "negative_prompt": ""
-    },
-    {
         "name": "DR  Model1",
         "prompt": "  {prompt}  , long hair, very large breasts, cleavage, bare shoulders, detached sleeves, (thighhighs), ((makeup)), garter straps, wide (curvy) hips, (thick) thighs, black lingerie , lace trim, corset",
         "negative_prompt": ""
@@ -70,29 +65,9 @@
         "negative_prompt": ""
     },
     {
-        "name": "DR NON-Photorealistic",
-        "prompt": "  {prompt},   ",
-        "negative_prompt": "realistic, photographic, photorealistic"
-    },
-    {
-        "name": "DR wlop",
-        "prompt": " {prompt} , by wlop",
+        "name": "DR  testModel",
+        "prompt": "  {prompt}  . long hair, large breasts, cleavage, bare shoulders, detached sleeves, (thighhighs), ((makeup)), garter straps, wide hips, (curvy) hips, (thick) thighs, black lingerie , lace trim, corset",
         "negative_prompt": ""
-    },
-    {
-        "name": "DR octane render",
-        "prompt": " {prompt} , octane render",
-        "negative_prompt": ""
-    },
-    {
-        "name": "DR volumetric",
-        "prompt": " {prompt} , volumetric",
-        "negative_prompt": ""
-    },
-    {
-        "name": "DR blur",
-        "prompt": " {prompt} , blurry",
-        "negative_prompt": "crisp, sharp"
     },
     {
         "name": "DR sharp",
@@ -100,34 +75,14 @@
         "negative_prompt": "blurry"
     },
     {
-        "name": "DR ambient light",
-        "prompt": " {prompt} , dramatic lighting, ambient light, volumetic light",
+        "name": "DR volumetric light",
+        "prompt": " {prompt} , dramatic lighting, ambient light, volumetric light, volumetric fog, side light",
         "negative_prompt": ""
-    },
-    {
-        "name": "DR low contrast",
-        "prompt": " {prompt} , low contrast, muted colors",
-        "negative_prompt": " high contrast"
-    },
-    {
-        "name": "DR high contrast",
-        "prompt": " {prompt} , High Contrast, vivid colors",
-        "negative_prompt": " low contrast"
     },
     {
         "name": "DR cinema shot",
         "prompt": " {prompt}, 8k, bokeh, shallow depth of field, vignette",
         "negative_prompt": " "
-    },
-    {
-        "name": "DR grain",
-        "prompt": " {prompt} , film grain, grainy",
-        "negative_prompt": " "
-    },
-    {
-        "name": "DR sunset",
-        "prompt": " {prompt} , sunset, vivid colors, long deep shadows, dramatic lighting, warm light, sunset light",
-        "negative_prompt": ""
     },
     {
         "name": "sai-3d-model",

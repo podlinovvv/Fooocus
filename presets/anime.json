@@ -33,9 +33,7 @@
     "default_prompt_negative": "low quality, watermark, label, big nose, asian, old",
     "default_styles": [
         "Fooocus V2",
-        "SAI Anime",
-        "DR  superstyle1",
-        "DR  Horny"
+        "SAI Anime"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
